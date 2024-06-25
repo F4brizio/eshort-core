@@ -1,0 +1,53 @@
+{
+  "name": "fabrizio/eshort-core",
+  "description": "A fast and powerful URL Shortener.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fabrizio Piminchumo",
+      "email": "f4brizio.21@gmail.com"
+    }
+  ],
+  "keywords": [
+    "laravel-url-shortener",
+    "url-shortener",
+    "url",
+    "laravel",
+    "devpri",
+    "tinre"
+  ],
+  "require": {
+    "php": "^7.3",
+    "geoip2/geoip2": "~2.0",
+    "laravel/framework": "^8.0",
+    "piwik/device-detector": "^3.2",
+    "torann/geoip": "^3.0",
+    "fideloper/proxy": "^4.2",
+    "fruitcake/laravel-cors": "^1.0",
+    "laravel/tinker": "^2.0",
+    "laravel/legacy-factories": "^1.0"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "^1.9",
+    "mockery/mockery": "^1.4",
+    "phpunit/phpunit": "^9.0",
+    "orchestra/testbench": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Devpri\\Tinre\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Devpri\\Tinre\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Devpri\\Tinre\\TinreServiceProvider"
+      ]
+    }
+  }
+}
