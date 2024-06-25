@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Devpri Tinre') }}</title>
+    <title>{{ config('app.name', 'eShort') }}</title>
     <!-- Styles -->
     <link href="{{ mix('app.css', 'vendor/tinre') }}" rel="stylesheet">
 </head>
