@@ -26,7 +26,7 @@
                             @if (Route::has('login'))
                                 <a class="text-white px-2" href="{{ route('login') }}">{{ __('Login') }}</a>
                             @endif
-                            @if (Route::has('login'))
+                            @if (Route::has('register'))
                                 <a class="text-white px-2" href="{{ route('register') }}">{{ __('Register') }}</a>
                             @endif
                         @else
